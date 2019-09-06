@@ -1,0 +1,40 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.6;
+
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+nav, header {
+  background-color: #7777;
+}
+
+
+ul {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: left; */
+  justify-content: space-around;
+  
+}
+
+a {
+  color: white;
+}
+
+
+nav .current > a {
+  color: yellow;
+}
